@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to bottom,black,grey,black);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+body form{
+   
+    
+   
+    padding: 0 !important;
+    background-image: url(back.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body form h1{
+    width: 100%;
+    
+    margin: 0;
+    background: linear-gradient(100deg,rgba(0, 0, 0, 0.329) 100% ,rgba(255, 255, 255, 0) 0%),url(331197058_965387141292979_6890483511079829189_n\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+   
+    
+
+   
+}
+.element-container{
+    padding: 4vw 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding: 1vw 0;
+    gap: 10px;
+}
+.button-container button{
+    padding: 9px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
